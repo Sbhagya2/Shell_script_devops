@@ -5,8 +5,8 @@
 
 ## This script will iterate directories for n number of days ##
 
-n=90
-for (( i=1;i<=$n;i++ ));
+
+for (( i=$2;i<=$3;i++ ));
 do
         mkdir $1$i
 done
